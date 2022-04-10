@@ -13,10 +13,9 @@ In this thesis, we build upon previously proposed deep learning methods for dyna
 ![Screenshot]('./imgs/drdd critic.png')
 
 
-table>
+<table>
   <tr>
     <td> <img src='./imgs/drdd critic.png'  alt="1" width = 360px height = 640px ></td>
-
-    <td><img src='./imgs/drdd critic.png' alt="2" width = 360px height = 640px></td>
+    <td> <img src='./imgs/drdd gen.png'  alt="2" width = 360px height = 640px ></td>
    </tr> 
 </table>
