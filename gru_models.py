@@ -45,6 +45,7 @@ class SAM(torch.nn.Module):
             return _attention * x
         
 class TimeDistributed(torch.nn.Module):
+    #This module is used to distribute the same module over several different time steps
     def __init__(self, module, batch_first=True):
         super(TimeDistributed, self).__init__()
         self.module = module
@@ -134,7 +135,6 @@ class ResBlock(torch.nn.Module):
         super().__init__()
         
         short_con= []
-        
         
         if stride>1:
             short_con.append(torch.nn.AvgPool2d(stride))
