@@ -32,4 +32,4 @@ For data, please refer to article: [Fast and accurate learned multiresolution dy
 
 ### In this repo 
 
-In this model is the code to build and train the DRDD model described in the thesis. The model expects data shaped into Batch size $\time$ Time horizon $\time$ 1 $\time$ Height $\time$ Width. For low resolution images, height $\time$ width = 64 $\time$ 126. For high resolution images, height $\time$ width = 256 $\time$ 512.
+In this model is the code to build and train the DRDD model described in the thesis. The model expects data shaped into Batch size $\times$ Time horizon $\times$ 1 $\times$ Height $\times$ Width. For low resolution images, height $\times$ width = 64 $\times$ 126. For high resolution images, height $\times$ width = 256 $\times$ 512.
