@@ -1,5 +1,4 @@
 # GRU-DD
--------
 This repository serves as the codebase for the model downscaling model described in my thesis
 
 ### Abstract:
@@ -32,4 +31,4 @@ For data, please refer to article: [Fast and accurate learned multiresolution dy
 
 ### In this repo 
 
-In this model is the code to build and train the DRDD model described in the thesis. The model expects data shaped into \texttt{Batch size x Time horizon x 1 x Height x Width}. For low resolution images, height x width = 64 x 126. For high resolution images, height x width = 256 x 512.
+In this repository is the code to build the DRDD model described in the thesis. Our trained model is also made available. The model expects data shaped into Batch size x Time horizon x 1 x Height x Width. For low resolution images, height x width = 64 x 126. High resolution output will be in the shape Batch size x 1 x height x width = 256 x 512.
