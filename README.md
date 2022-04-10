@@ -10,12 +10,18 @@ Regional climate models dynamically downscale simulated climate by conditioning 
 In this thesis, we build upon previously proposed deep learning methods for dynamical downscaling through estimation of a regional climate model. Our proposed model is a generative adversarial network that leverages the effects of temporal dependencies within spatio-temporal climate events. 
 
 ### Model Structure
-![Screenshot]('./imgs/drdd critic.png')
-
 
 <table>
-  <tr>
-    <td> <img src='./imgs/drdd critic.png'  alt="1" width = 360px height = 640px ></td>
-    <td> <img src='./imgs/drdd gen.png'  alt="2" width = 360px height = 640px ></td>
+    <tr>
+        <th >Critic</th>
+        <th >Generator</th>
+    </tr>
+    <tr>
+        <td> 
+            <img src='./imgs/drdd critic.png'  alt="1" width = 360px height = 640px >
+        </td>
+        <td> 
+            <img src='./imgs/drdd gen.png'  alt="2" width = 360px height = 640px >
+        </td>
    </tr> 
 </table>
