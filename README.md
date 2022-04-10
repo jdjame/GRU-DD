@@ -1,6 +1,6 @@
 # GRU-DD
-Codebase for the model downscaling model described in my thesis
 -------
+This repository serves as the codebase for the model downscaling model described in my thesis
 
 ### Abstract:
 Global climate models represent major climate system components of the planet in order to generate long term, sparse, accurate realizations of future climatic events across the entire globe. Downscaling is the method by which these low resolution realizations are converted into high resolution simulations of climate events which can then be used by stakeholders and policy makers. 
@@ -25,3 +25,11 @@ In this thesis, we build upon previously proposed deep learning methods for dyna
         </td>
    </tr> 
 </table>
+
+### Data
+
+For data, please refer to article: [Fast and accurate learned multiresolution dynamical downscaling for precipitation](https://arxiv.org/abs/2101.06813). The authors make the data, processing and modeling code available at their [github repository](https://github.com/lzhengchun/dsgan).
+
+### In this repo 
+
+In this model is the code to build and train the DRDD model described in the thesis. The model expects data shaped into Batch size $\time$ Time horizon $\time$ 1 $\time$ Height $\time$ Width. For low resolution images, height $\time$ width = 64 $\time$ 126. For high resolution images, height $\time$ width = 256 $\time$ 512.
